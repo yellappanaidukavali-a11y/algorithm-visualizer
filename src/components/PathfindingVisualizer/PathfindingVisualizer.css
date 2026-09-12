@@ -1,0 +1,46 @@
+.pathfinding-visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.grid {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row {
+  display: flex;
+  height: 25px; /* Must match Node.css height */
+}
